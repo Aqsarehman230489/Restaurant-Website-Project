@@ -1,0 +1,105 @@
+*
+{
+  padding: 0%;
+  margin: 0%;
+}
+
+body
+{
+  background: linear-gradient( to top, #4b0000,#000000);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: float 3s infinite alternate;
+}
+
+@keyframes float {
+  0% {
+    background-position: center top;
+  }
+  100% {
+    background-position: center bottom;
+  }
+}
+.card{
+  background-color: rgb(0, 0, 0);
+}
+.im
+{
+    height: 150px;
+}
+
+.checked {
+    color: orange;
+}
+
+.n-check {
+    color: white;
+}
+
+.back {
+    background-color: gainsboro;
+}
+
+.btn:hover {
+  background-color: rgb(212, 148, 81);
+  color: black;
+}
+
+/* Add a wavy effect on hover */
+.image-wrapper {
+    transition: transform 0.5s ease-in-out;
+}
+  
+.image-wrapper:hover {
+    transform: scale(1.1); /* You can adjust the scale factor for a more pronounced effect */
+}
+
+.transparency {
+    background: transparent;
+    opacity: 0.9;
+}
+
+.transparency1 {
+  background-color: black;
+ opacity:1px;
+    box-shadow: rgb(76, 2, 2); 
+}
+.transparency1:hover {
+    background: transparent;
+    opacity: 1;
+    box-shadow: rgb(32, 0, 0); 
+    background-color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+.card-text {
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a
+{
+  color: white;
+}
+
+.card-text :hover
+ {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  }
+
+.card-text1 {
+  color: white;
+  font-weight: normal;
+  
+}
+
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

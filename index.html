@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="home.html">
+  <link rel="stylesheet" href="reservation.html">
+  <link rel="stylesheet" href="drinks.html">
+  <link rel="stylesheet" href="main courses.html">
+  <link rel="stylesheet" href="starters.html">
+  <link rel="stylesheet" href="sweets.html">
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo6.png">
+  
+  <title>Celestial cuisine</title>
+  <style>
+    body, html {
+  height: 100%;
+  font-family:'DM Sans';
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient( to top, #4b0000,#000000);
+  
+}
+*{
+  font-family:'DM Sans';
+  box-sizing: border-box;
+  width:100%;
+   margin: 0; padding: 0; 
+}
+.navbar {
+  background-color: rgba(81, 81, 81, 0.479);
+  border-radius: 45px;
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+   z-index: 1000; 
+  padding: 1px;
+}
+
+.navbar-brand {
+  display: flex; 
+  align-items: center; 
+  margin-left: 2px;
+  
+}
+
+.navbar-brand p {
+  
+  color: rgb(210, 174, 138);
+ 
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: larger;
+  font-family:'DM Sans';
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar img {
+  width: 70px;
+  height: 70px;
+}
+
+.nav-item p {
+ font-family: 'sans-serif';
+  margin: 10px 0px 0px 0px;
+  color: rgb(210, 174, 138);
+  font-family:'DM Sans';
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+  position: relative; 
+}
+
+.nav-item p::before {
+  content: '';
+  position: absolute;
+  bottom: -3px; /* Adjusted to be just below the text */
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(210, 171, 133);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.nav-item p:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link button {
+  background-color: rgb(210, 171, 133);
+  border: 2px solid rgb(210, 171, 133);
+  color: white;
+  font-size: larger;
+  padding: 11px 20px;
+  border-radius: 30px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  margin-right: 5px;
+ 
+}
+
+.nav-link button:hover {
+  background-color: transparent;
+  color: rgb(210, 171, 133); 
+}
+
+.navbar-collapse{
+  margin-left: 10px; 
+}
+.navbar-collapse button {
+  margin-right: 17px; 
+}
+  </style>
+  <title>Celestial cuisine</title>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="images/logo6.png" alt="img">
+        <p>Celestial Cuisine</p></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html"><p>Home</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><p>Menu</p></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/index1.php"><p>Login</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost/reservation.php"><button>Reservation</button></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+<br><br><br><br>
+  <div class="album py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col  image-wrapper  image-hover image-hover:hover "  >
+          <div class="card shadow-sm"  >
+            <img src="images/starter.jpg" alt="" class="im">
+            <div class="card-body back transparency1" >
+              <p class="card-text"><a href="starters.html">Starters</a></p>
+              <p class="card-text1"> Kickstart your meal with tantalizing bites like bruschetta and spring rolls.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <span><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star n-check"></span>
+                  <span class="fa fa-star n-check"></span>
+                  <span class="fa fa-star n-check n-check"></span></span>
+                  
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col  image-wrapper image-hover image-hover:hover ">
+          <div class="card shadow-sm">
+            <img src="images/courses.jpg" alt="" class="im">
+            <div class="card-body back transparency1 ">
+              <p class="card-text"><a href="main courses.html">Main Courses</a></p>
+              <p class="card-text1">Explore diverse flavors from grilled chicken to seafood paella.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <span><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star n-check"></span>
+                  <span class="fa fa-star n-check"></span></span>
+                  
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col  image-wrapper image-hover image-hover:hover ">
+          <div class="card shadow-sm">
+            <img src="images/sweet.jpg" alt="" class="im">
+            <div class="card-body back transparency1 ">
+              <p class="card-text"><a href="sweets.html">Desserts</a></p>
+              <p class="card-text1">Indulge in decadent desserts like chocolate cake and tiramisu.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <span><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span></span>
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col  image-wrapper image-hover image-hover:hover ">
+          <div class="card shadow-sm">
+            <img src="images/drink.jpg" alt="" class="im">
+            <div class="card-body back transparency1">
+              <p class="card-text"><a href="drinks.html">Drinks</a></p>
+              <p class="card-text1">Quench your thirst with cocktails and hot beverages.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <span><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star n-check"></span>
+                  <span class="fa fa-star n-check"></span></span>
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+     
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
