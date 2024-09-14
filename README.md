@@ -1,5 +1,5 @@
 Celestial Cuisine
-Celestial Cuisine is a dynamic and interactive seafood restaurant website created as part of a second-semester project for the Web Technologies course. The website is designed to provide an intuitive and visually appealing user experience, featuring information about the restaurant, menu offerings, customer reviews, and a reservation system.
+Celestial Cuisine is a dynamic and interactive seafood restaurant website frontend created as part of a second-semester project for the Web Technologies course. The website is designed to provide an intuitive and visually appealing user experience, featuring information about the restaurant, menu offerings, customer reviews, and a reservation system.
 
 Features:
 Responsive Design: Optimized for various devices, ensuring a seamless experience across desktops, tablets, and mobile phones.
