@@ -25,7 +25,7 @@
   font-family:'DM Sans';
   margin: 0px;
   padding: 0px;
-  background: linear-gradient( to top, #4b0000,#000000);
+  background: #000000;
   
 }
 *{
@@ -83,7 +83,7 @@
 .nav-item p::before {
   content: '';
   position: absolute;
-  bottom: -3px; /* Adjusted to be just below the text */
+  bottom: -3px; 
   left: 0;
   width: 100%;
   height: 3px;
@@ -144,103 +144,109 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/index1.php"><p>Login</p></a>
+          <a class="nav-link" href="http://localhost/login/index1.php"><p>Login</p></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="http://localhost/reservation.php"><button>Reservation</button></a>
+            <a class="nav-link" href="http://localhost/submit_reservation.php"><button>Reservation</button></a>
           </li>
       </ul>
     </div>
   </nav>
 
-<br><br><br><br>
-  <div class="album py-5">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        <div class="col  image-wrapper  image-hover image-hover:hover "  >
-          <div class="card shadow-sm"  >
-            <img src="images/starter.jpg" alt="" class="im">
-            <div class="card-body back transparency1" >
-              <p class="card-text"><a href="starters.html">Starters</a></p>
-              <p class="card-text1"> Kickstart your meal with tantalizing bites like bruschetta and spring rolls.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <span><span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star n-check"></span>
-                  <span class="fa fa-star n-check"></span>
-                  <span class="fa fa-star n-check n-check"></span></span>
-                  
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col  image-wrapper image-hover image-hover:hover ">
-          <div class="card shadow-sm">
-            <img src="images/courses.jpg" alt="" class="im">
-            <div class="card-body back transparency1 ">
-              <p class="card-text"><a href="main courses.html">Main Courses</a></p>
-              <p class="card-text1">Explore diverse flavors from grilled chicken to seafood paella.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <span><span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star n-check"></span>
-                  <span class="fa fa-star n-check"></span></span>
-                  
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col  image-wrapper image-hover image-hover:hover ">
-          <div class="card shadow-sm">
-            <img src="images/sweet.jpg" alt="" class="im">
-            <div class="card-body back transparency1 ">
-              <p class="card-text"><a href="sweets.html">Desserts</a></p>
-              <p class="card-text1">Indulge in decadent desserts like chocolate cake and tiramisu.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <span><span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span></span>
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col  image-wrapper image-hover image-hover:hover ">
-          <div class="card shadow-sm">
-            <img src="images/drink.jpg" alt="" class="im">
-            <div class="card-body back transparency1">
-              <p class="card-text"><a href="drinks.html">Drinks</a></p>
-              <p class="card-text1">Quench your thirst with cocktails and hot beverages.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <span><span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star n-check"></span>
-                  <span class="fa fa-star n-check"></span></span>
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary btn">Rating</button>
-              </div>
-            </div>
+<br><br><br>
+
+
+<!-- cards -->
+
+<div class="album py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="card shadow-sm image-wrapper">
+          <img src="images/starter.jpg" alt="Starters" class="im">
+          <div class="card-body">
+            <p class="card-text"><a href="starters.html">Starters</a></p>
+            <p class="card-text1">Kickstart your meal with tantalizing bites like bruschetta and spring rolls.</p>
+            
+            <button type="button" class="btn btn-outline-secondary">Rating</button>
           </div>
         </div>
       </div>
+      
+      <div class="col">
+        <div class="card shadow-sm image-wrapper">
+          <img src="images/courses.jpg" alt="Main Courses" class="im">
+          <div class="card-body">
+            <p class="card-text"><a href="main courses.html">Main Courses</a></p>
+            <p class="card-text1">Explore diverse flavors from grilled chicken to seafood paella.</p>
+           
+            <button type="button" class="btn btn-outline-secondary">Rating</button>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col">
+        <div class="card shadow-sm image-wrapper">
+          <img src="images/sweet.jpg" alt="Desserts" class="im">
+          <div class="card-body">
+            <p class="card-text"><a href="sweets.html">Desserts</a></p>
+            <p class="card-text1">Explore diverse flavors from grilled chicken to seafood paella.</p>
+            
+            <button type="button" class="btn btn-outline-secondary">Rating</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card shadow-sm image-wrapper">
+          <img src="images/drink.jpg" alt="Drinks" class="im">
+          <div class="card-body">
+            <p class="card-text"><a href="drinks.html">Drinks</a></p>
+            <p class="card-text1">Explore diverse flavors from grilled chicken to seafood paella.</p>
+            
+            <button type="button" class="btn btn-outline-secondary">Rating</button>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
-  
-     
+</div>
 
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 class="footer-logo">Celestial Cuisine</h5>
+        <p>A taste of the future!</p>
+      </div>
+      <div class="col-md-4 mmm">
+        <h5>Quick Links</h5>
+        <ul class="footer-menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="main courses.html">Menus</a></li>
+          <li><a href="home.html">About Us</a></li>
+          <li><a href="#">Our Chefs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mmm">
+        <h5>Connect with Us</h5>
+        <ul class="footer-social-icons">
+          <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://www.google.com"><i class="fab fa-google"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Celestial Cuisine. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
