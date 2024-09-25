@@ -26,5 +26,5 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 2. Past the htdoc_files in xamp htdoc folder
-3. Import the sql file to MYsql(phpmyadmin)
+3. Import the sql file to MYSQL(phpmyadmin)
 
