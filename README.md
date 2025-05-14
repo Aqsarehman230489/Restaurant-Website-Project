@@ -50,5 +50,5 @@ To set up the **Celestial Cuisine** project locally, follow these simple steps:
 
 5. **Run the Project:**
    - Start the Apache and MySQL modules from the XAMPP Control Panel.
-   - Access the website by navigating to `http://localhost/[your_project_folder]` in your web browser.
+   - Access the website by navigating to `http://localhost/Project-name` in your web browser.
 _____________________________________________________________________________________________________________________________________________________________________
